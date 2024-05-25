@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: 37-SB-MS-Greet-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+
+server:
+  port:9091
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
