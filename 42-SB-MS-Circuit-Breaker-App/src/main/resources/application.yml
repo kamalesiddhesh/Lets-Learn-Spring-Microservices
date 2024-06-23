@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: 42-SB-MS-Circuit-Breaker-App
+  cloud:
+    compatibility-verifier:
+      enabled: false
